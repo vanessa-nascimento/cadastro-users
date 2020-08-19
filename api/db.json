@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Carolina",
+      "course": "Angular 9",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 2,
+      "name": "Beatriz",
+      "course": "React Native",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 3,
+      "name": "Arthur França",
+      "course": "Java e Spring Boot",
+      "status": "INATIVE"
+    },
+    {
+      "id": 4,
+      "name": "Claudia Martins",
+      "course": "Ruby",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 5,
+      "name": "Tamires Souza",
+      "course": "Angular 9",
+      "status": "FINISHED"
+    },
+    {
+      "id": 6,
+      "name": "Alice Alves",
+      "course": "Python",
+      "status": "FINISHED"
+    }
+  ]
+}
