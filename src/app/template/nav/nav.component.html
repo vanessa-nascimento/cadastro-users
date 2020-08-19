@@ -1,0 +1,29 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav #sidenav opened fixedInViewport="true" mode="side" class="nav-sidenav" [ngStyle]="{ 'width.em': sidenavWidth }" opened="true" (mouseenter)="increase()"
+    (mouseleave)="decrease()">
+    <mat-nav-list>
+      <mat-list-item routerLink="1" routerLinkActive="active" >
+        <mat-icon mat-list-icon>list</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h4 class="lead">Listagem</h4>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item routerLink="2" routerLinkActive="active">
+        <mat-icon mat-list-icon>add_circle_outline</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h4 class="lead">Cadastrar</h4>
+        </div>
+      </mat-list-item>
+
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header></app-header>
+    <app-footer></app-footer>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
